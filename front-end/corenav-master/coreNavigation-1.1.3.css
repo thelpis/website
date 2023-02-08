@@ -202,7 +202,8 @@ Core Navigation
 .core-nav .wrap-core-nav-list .core-nav-list {
 	display: inline-block;
 	margin: 0 0 -5px 0;
-	padding: 0;
+	/* padding: 0; */
+	padding-top: 30px;
 	list-style: none;
 }
 
@@ -1044,6 +1045,7 @@ ul.attributes {
 ul.attributes li {
 	float: left;
 	display: block;
+	padding-top: 30px;
 }
 
 ul.attributes li a {
@@ -1199,6 +1201,7 @@ Grid
 	}
 	.core-nav .nav-container {
 		width: 970px;
+		height: 120px;
 	}
 	.core-nav .full-container {
 		padding: 0 15px;
